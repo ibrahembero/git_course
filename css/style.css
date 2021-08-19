@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --headerColor:rgb(30, 29, 36);
+}
+header{
+    background: var(--headerColor);
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: yesteryear;
+   
+}
+nav{
+    background: rgb(50, 49, 54);
+    height: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    padding: 20px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a:hover{
+background: rgb(182, 183, 189);
+color: rgb(12, 17, 13);
+}
+nav ul li a{
+    font-family: roboto;
+}
+nav ul li::after{
+    content: " | ";
+    color: white;
+}
+nav ul li:last-child::after{
+    content: " ";
+}
+main{
+    background-color: rgb(172, 169, 169);
+    padding: 20px;
+}
+main p{
+    text-align: center;
+}
+/* div{
+    position: relative;
+    
+} */
+h2{
+    margin: 20px;
+    font-family: yesteryear;
+}
+div p{
+    width: 210px;
+    margin: 30px auto;
+    font-family: roboto;
+}
+p a{
+    text-decoration: none;
+    color: rgb(230, 230, 238);
+}
+p a:hover{
+    color: rgb(10, 26, 12);
+}
+.one{
+    background: linear-gradient(to top right,red,blue);
+    height: 80vh;
+    width: 33.33%;
+    float: right;
+    text-align: center;
+
+}
+.two{
+    background: linear-gradient(to top right,rgb(105, 112, 209),rgb(28, 36, 144));
+    height: 80vh;
+    width: 33.33%;
+    float: right;
+    text-align: center;
+}
+.three{
+    background: linear-gradient(to top right,rgb(21, 131, 35),rgb(115, 179, 128));
+    height: 80vh;
+    width: 33.33%;
+    float: right;
+    text-align: center;
+}
+div img{
+    width: 250px;
+    height: 200px;
+    border-radius: 150px;
+}
+div img:hover{
+    transform: translateX(10px);
+}
+.clearfix{
+    clear: both;
+}
+footer{
+    background: var(--headerColor);
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: roboto;
+}
+/* style for registration form */
+form{
+    background: rgb(93, 81, 161);
+    height: 65vh;
+    margin: 20px auto;
+    padding: 20px;
+    width:600px;
+    border-radius: 10px;
+    
+}
+h1{
+    text-align: center;
+    font-family: yesteryear;
+}
+input,label,button{
+    display: block;
+    margin: 20px;
+    
+}
+select{
+    margin-left: 20px;
+    width:500px;
+    height:30px;
+    border-radius: 10px;
+    background: rgb(189, 156, 204);
+    color: rgb(90, 88, 88);
+}
+input{
+    width:500px;
+    height:30px;
+    border-radius: 10px;
+    background: rgb(189, 156, 204);
+    color: black;
+}
+button{
+    width:500px;
+    height:30px;
+    border-radius: 10px;
+    font-family: roboto;
+    background: rgb(189, 156, 204);
+    color: rgb(90, 88, 88);
+}
+label{
+    font-family: roboto;
+    color: rgb(229, 225, 235);
+}
+.register{
+    background: linear-gradient(to top right,rgb(55, 129, 26),rgb(176, 235, 165));
+    padding: 20px;
+    
+}
+/*  end of style for registration form */
+/* style for contact us form */
+.form{
+    height: 90vh;
+}
+textarea{
+    width: 500px;
+    margin-left: 20px;
+    background: rgb(189, 156, 204);
+}
+/* end of style for contact us form */
+/* style for about */
+.about{
+    background: linear-gradient(to top right,rgb(15, 155, 248),rgb(148, 208, 223));
+    padding: 20px;
+    height: 60vh;
+}
+h3{
+    text-align: center;
+    font-family: yesteryear;
+    margin:20px;
+}
+.talk{
+    width: 600px;
+    margin: 10 auto;
+    font-family: roboto;
+}
+/* end of style for about */
+ol li{
+    text-align: center;
+    width: 600px;
+}
